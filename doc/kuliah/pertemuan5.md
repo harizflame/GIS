@@ -56,12 +56,14 @@ s.shapes()[0].points
 --> membuat file dbf
 
 s. field('nama', 'tipedata', 'panjang tipedata')
+
 s.record('isi')
 
 
 -->menyimpan file
 
 s.shp('namafile.shp')
+
    save('namafile')
 
 
